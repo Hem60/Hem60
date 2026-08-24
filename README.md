@@ -25,3 +25,5 @@ ai/ml       RAG pipelines · LLMs · embeddings · vector search
 tools       Git · GitHub · VS Code · Claude Code · Gemini CLI · Copilot
 learning    ML fundamentals · applied AI/ML projects
 ```
+
+<sub>B.E. Computer Engineering · IIT Mandi (AI-DS) — two undergraduate degrees, in parallel.</sub>
