@@ -22,6 +22,6 @@
 ```
 languages   Python · HTML · CSS · JavaScript
 ai/ml       RAG pipelines · LLMs · embeddings · vector search
-tools       Git · GitHub · VS Code
+tools       Git · GitHub · VS Code · Claude Code · Gemini CLI · Copilot
 learning    ML fundamentals · applied AI/ML projects
 ```
