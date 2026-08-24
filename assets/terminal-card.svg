@@ -6,6 +6,19 @@
     <clipPath id="clip">
       <rect x="0" y="40" width="1130" height="580" rx="14"/>
     </clipPath>
+
+    <clipPath id="c1"><rect x="50" y="140" width="0" height="34"><animate id="a1" attributeName="width" from="0" to="182" dur="0.5s" begin="0.4s" fill="freeze"/></rect></clipPath>
+    <clipPath id="c2"><rect x="50" y="182" width="0" height="40"><animate id="a2" attributeName="width" from="0" to="240" dur="0.45s" begin="a1.end" fill="freeze"/></rect></clipPath>
+    <clipPath id="c3"><rect x="50" y="212" width="0" height="34"><animate id="a3" attributeName="width" from="0" to="440" dur="0.8s" begin="a2.end" fill="freeze"/></rect></clipPath>
+    <clipPath id="c4"><rect x="50" y="262" width="0" height="34"><animate id="a4" attributeName="width" from="0" to="340" dur="0.6s" begin="a3.end+0.3s" fill="freeze"/></rect></clipPath>
+    <clipPath id="c5"><rect x="50" y="296" width="0" height="34"><animate id="a5" attributeName="width" from="0" to="530" dur="0.8s" begin="a4.end" fill="freeze"/></rect></clipPath>
+    <clipPath id="c6"><rect x="50" y="324" width="0" height="34"><animate id="a6" attributeName="width" from="0" to="500" dur="0.8s" begin="a5.end" fill="freeze"/></rect></clipPath>
+    <clipPath id="c7"><rect x="50" y="352" width="0" height="34"><animate id="a7" attributeName="width" from="0" to="490" dur="0.8s" begin="a6.end" fill="freeze"/></rect></clipPath>
+    <clipPath id="c8"><rect x="50" y="402" width="0" height="34"><animate id="a8" attributeName="width" from="0" to="230" dur="0.5s" begin="a7.end+0.3s" fill="freeze"/></rect></clipPath>
+    <clipPath id="c9"><rect x="50" y="432" width="0" height="34"><animate id="a9" attributeName="width" from="0" to="560" dur="0.9s" begin="a8.end" fill="freeze"/></rect></clipPath>
+    <clipPath id="c10"><rect x="50" y="482" width="0" height="34"><animate id="a10" attributeName="width" from="0" to="230" dur="0.5s" begin="a9.end+0.3s" fill="freeze"/></rect></clipPath>
+    <clipPath id="c11"><rect x="50" y="512" width="0" height="34"><animate id="a11" attributeName="width" from="0" to="560" dur="0.9s" begin="a10.end" fill="freeze"/></rect></clipPath>
+    <clipPath id="c12"><rect x="50" y="562" width="0" height="34"><animate id="a12" attributeName="width" from="0" to="230" dur="0.5s" begin="a11.end+0.3s" fill="freeze"/></rect></clipPath>
   </defs>
 
   <rect x="0" y="0" width="1130" height="620" fill="#05070b"/>
@@ -34,37 +47,66 @@
   <circle cx="1080" cy="75" r="4" fill="#3fb950"/>
   <text x="1091" y="79" fill="#3fb950" font-size="13">LIVE</text>
 
-  <!-- body -->
+  <!-- body: each line revealed left-to-right via animated clip-path -->
   <g font-size="17">
-    <text x="56" y="162" fill="#58a6ff">$ <tspan fill="#dbe2ea">whoami --deep</tspan></text>
+    <g clip-path="url(#c1)">
+      <text x="56" y="162" fill="#58a6ff">$ <tspan fill="#dbe2ea">whoami --deep</tspan></text>
+    </g>
 
-    <text x="56" y="204" font-size="34" font-weight="700" fill="#f4f7fa" letter-spacing="1">HEM PATEL</text>
-    <text x="56" y="234" font-size="16" fill="#8b949e">AI/ML Enthusiast · Building a RAG Chatbot</text>
+    <g clip-path="url(#c2)">
+      <text x="56" y="204" font-size="34" font-weight="700" fill="#f4f7fa" letter-spacing="1">HEM PATEL</text>
+    </g>
+    <g clip-path="url(#c3)">
+      <text x="56" y="234" font-size="16" fill="#8b949e">AI/ML Enthusiast · Building a RAG Chatbot</text>
+    </g>
 
-    <text x="56" y="284" fill="#58a6ff">$ <tspan fill="#dbe2ea">ls ~/work --sort=substance</tspan></text>
+    <g clip-path="url(#c4)">
+      <text x="56" y="284" fill="#58a6ff">$ <tspan fill="#dbe2ea">ls ~/work --sort=substance</tspan></text>
+    </g>
 
-    <text x="56" y="318" font-size="15.5">
-      <tspan fill="#58a6ff" font-weight="700">RAG-CHAT-BOT</tspan>
-      <tspan fill="#5c6570" dx="14">Python · retrieval-augmented generation chatbot</tspan>
-    </text>
-    <text x="56" y="346" font-size="15.5">
-      <tspan fill="#58a6ff" font-weight="700">MOVIE_RECOMMENDER</tspan>
-      <tspan fill="#5c6570" dx="14">HTML · movie recommendation app</tspan>
-    </text>
-    <text x="56" y="374" font-size="15.5">
-      <tspan fill="#58a6ff" font-weight="700">IRIS-PREDICTOR</tspan>
-      <tspan fill="#5c6570" dx="14">HTML · classic ML classification project</tspan>
-    </text>
+    <g clip-path="url(#c5)">
+      <text x="56" y="318" font-size="15.5">
+        <tspan fill="#58a6ff" font-weight="700">RAG-CHAT-BOT</tspan>
+        <tspan fill="#5c6570" dx="14">Python · retrieval-augmented generation chatbot</tspan>
+      </text>
+    </g>
+    <g clip-path="url(#c6)">
+      <text x="56" y="346" font-size="15.5">
+        <tspan fill="#58a6ff" font-weight="700">MOVIE_RECOMMENDER</tspan>
+        <tspan fill="#5c6570" dx="14">HTML · movie recommendation app</tspan>
+      </text>
+    </g>
+    <g clip-path="url(#c7)">
+      <text x="56" y="374" font-size="15.5">
+        <tspan fill="#58a6ff" font-weight="700">IRIS-PREDICTOR</tspan>
+        <tspan fill="#5c6570" dx="14">HTML · classic ML classification project</tspan>
+      </text>
+    </g>
 
-    <text x="56" y="424" fill="#58a6ff">$ <tspan fill="#dbe2ea">which --learning</tspan></text>
-    <text x="56" y="454" font-size="15.5" fill="#7ee787">Python · RAG pipelines · LLMs · embeddings · vector search</text>
+    <g clip-path="url(#c8)">
+      <text x="56" y="424" fill="#58a6ff">$ <tspan fill="#dbe2ea">which --learning</tspan></text>
+    </g>
+    <g clip-path="url(#c9)">
+      <text x="56" y="454" font-size="15.5" fill="#7ee787">Python · RAG pipelines · LLMs · embeddings · vector search</text>
+    </g>
 
-    <text x="56" y="504" fill="#58a6ff">$ <tspan fill="#dbe2ea">status --current</tspan></text>
-    <text x="56" y="534" font-size="15.5" fill="#e3b341">learning in public · shipping small AI/ML builds · open to collab</text>
+    <g clip-path="url(#c10)">
+      <text x="56" y="504" fill="#58a6ff">$ <tspan fill="#dbe2ea">status --current</tspan></text>
+    </g>
+    <g clip-path="url(#c11)">
+      <text x="56" y="534" font-size="15.5" fill="#e3b341">learning in public · shipping small AI/ML builds · open to collab</text>
+    </g>
 
-    <text x="56" y="584" fill="#58a6ff">$ scroll --for=links</text>
-    <rect x="238" y="568" width="10" height="18" fill="#3fb950">
-      <animate attributeName="opacity" values="1;0;1" dur="1s" repeatCount="indefinite"/>
-    </rect>
+    <g clip-path="url(#c12)">
+      <text x="56" y="584" fill="#58a6ff">$ scroll --for=links</text>
+    </g>
+
+    <!-- cursor: appears once typing finishes, then blinks -->
+    <g opacity="0">
+      <set attributeName="opacity" to="1" begin="a12.end"/>
+      <rect x="238" y="568" width="10" height="18" fill="#3fb950">
+        <animate attributeName="opacity" values="1;0;1" dur="1s" repeatCount="indefinite"/>
+      </rect>
+    </g>
   </g>
 </svg>
