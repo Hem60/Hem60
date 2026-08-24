@@ -7,15 +7,6 @@
   <a href="mailto:patelhem60@gmail.com">patelhem60@gmail.com</a>
 </p>
 
-### Stack
-
-```
-languages   Python · HTML · CSS · JavaScript
-ai/ml       RAG pipelines · LLMs · embeddings · vector search
-tools       Git · GitHub · VS Code
-learning    ML fundamentals · applied AI/ML projects
-```
-
 ### Work
 
 | Repo | Commits | About |
@@ -24,3 +15,12 @@ learning    ML fundamentals · applied AI/ML projects
 | [webathon](https://github.com/Hem60/webathon) | 5 commits | HTML · hackathon build |
 | [IRIS-PREDICTOR](https://github.com/Hem60/IRIS-PREDICTOR) | 4 commits | HTML · classic ML classification project |
 | [MOVIE_RECOMMENDER](https://github.com/Hem60/MOVIE_RECOMMENDER) | 1 commit | HTML · movie recommendation app |
+
+### Stack
+
+```
+languages   Python · HTML · CSS · JavaScript
+ai/ml       RAG pipelines · LLMs · embeddings · vector search
+tools       Git · GitHub · VS Code
+learning    ML fundamentals · applied AI/ML projects
+```
