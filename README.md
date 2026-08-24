@@ -15,6 +15,7 @@
 | [webathon](https://github.com/Hem60/webathon) | 5 commits | HTML · hackathon build |
 | [IRIS-PREDICTOR](https://github.com/Hem60/IRIS-PREDICTOR) | 4 commits | HTML · classic ML classification project |
 | [MOVIE_RECOMMENDER](https://github.com/Hem60/MOVIE_RECOMMENDER) | 1 commit | HTML · movie recommendation app |
+| raksha-ai *(private)* | 5 commits (contributor) | Team project — financial safety AI assistant · built the About/How it works screen |
 
 ### Stack
 
