@@ -1,4 +1,4 @@
-<p align="center"><img src="terminal-card.svg" alt="Hem Patel terminal banner" /></p>
+<p align="center"><img src="assets/terminal-card.svg" alt="Hem Patel terminal banner" width="900" /></p>
 
 # Hem Patel
 
