@@ -1,3 +1,5 @@
+<p align="center"><img src="assets/roles.svg" alt="AI/ML Engineer in Training | RAG Systems | LLM Evals | Open to Internships" width="900" height="51" /></p>
+
 <p align="center"><img src="assets/terminal-card.svg" alt="Hem Patel terminal profile" width="900" height="470" /></p>
 
 <div align="center">
