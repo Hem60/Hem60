@@ -1,6 +1,6 @@
-<p align="center"><a><img src="assets/roles.svg" alt="AI/ML Engineer in Training | RAG Systems | LLM Evals | Open to Internships" width="900" height="51" /></a></p>
+<p align="center"><a href="#noop"><img src="assets/roles.svg" alt="AI/ML Engineer in Training | RAG Systems | LLM Evals | Open to Internships" width="900" height="51" /></a></p>
 
-<p align="center"><a><img src="assets/terminal-card.svg" alt="Hem Patel terminal profile" width="900" height="470" /></a></p>
+<p align="center"><a href="#noop"><img src="assets/terminal-card.svg" alt="Hem Patel terminal profile" width="900" height="470" /></a></p>
 
 <div align="center">
 <picture>
@@ -27,7 +27,7 @@
   <img src="https://ghchart.rshah.org/22d3ee/Hem60" alt="Contribution heatmap" width="800" />
 </p>
 
-<p align="center"><a><img src="assets/divider.svg" alt="" width="900" height="5" /></a></p>
+<p align="center"><a href="#noop"><img src="assets/divider.svg" alt="" width="900" height="5" /></a></p>
 
 <p align="center">
   <a href="https://www.linkedin.com/in/hem-patel-02b215377"><img src="https://img.shields.io/badge/LINKEDIN-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
