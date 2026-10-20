@@ -1,60 +1,95 @@
 <p align="center"><img src="assets/terminal-card.svg" alt="Hem Patel terminal banner" width="900" /></p>
 
-# Hem Patel
-
-**AI/ML engineer in training. I build RAG systems, evaluation harnesses and ML services, and I publish the numbers, including the ones that don't look good.**
-
-B.E. Computer Engineering · IIT Mandi (AI-DS), two undergraduate degrees in parallel.
-
-[LinkedIn](https://www.linkedin.com/in/hem-patel-02b215377) · [patelhem60@gmail.com](mailto:patelhem60@gmail.com)
-
-**Currently:** shipping small AI/ML builds, learning in public, **open to internships**.
+<p align="center">
+  <a href="https://www.linkedin.com/in/hem-patel-02b215377"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
+  <a href="mailto:patelhem60@gmail.com"><img src="https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" /></a>
+  <img src="https://img.shields.io/badge/Open%20to-Internships-3fb950?style=for-the-badge" alt="Open to internships" />
+</p>
 
 ---
 
-## Projects
+## 👋 About
 
-### [RAG QA Chatbot](https://github.com/Hem60/RAG-CHAT-BOT): fully local retrieval-augmented QA over PDFs
+I'm **Hem Patel**, an AI/ML engineer in training studying **B.E. Computer Engineering** alongside **IIT Mandi (AI-DS)**, two undergraduate degrees in parallel.
 
-![Python](https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=white)
-![FAISS](https://img.shields.io/badge/FAISS-vector%20search-0467DF)
-![FastAPI](https://img.shields.io/badge/FastAPI-009688?logo=fastapi&logoColor=white)
-![HuggingFace](https://img.shields.io/badge/HuggingFace-FFD21E?logo=huggingface&logoColor=black)
-![Docker](https://img.shields.io/badge/Docker-2496ED?logo=docker&logoColor=white)
+I build RAG systems, evaluation harnesses and ML services, and I publish the numbers, including the ones that don't look good.
 
-Ask questions over technical PDFs (built for Data Structures notes). CPU embeddings (`all-MiniLM-L6-v2`) → FAISS index → `gemma-2-9b-it` for grounded answers, on a 100% free-tier stack.
+**Currently:** shipping small AI/ML builds and learning in public.
 
-- Refuses to answer when the documents don't contain the answer.
-- **LLM-as-judge eval harness** that reports errors separately: 10 questions attempted, 6 scored, 4 errored → **3.5/5 on scored, 2.5/5 penalised**.
+### 🛠️ Engineering Focus
 
-### [Movie Recommender](https://github.com/Hem60/MOVIE_RECOMMENDER): item-based collaborative filtering
+- Retrieval-Augmented Generation (RAG) and grounded LLM answers
+- Evaluation harnesses: LLM-as-judge scoring that reports errors separately
+- ML services: REST APIs with FastAPI / Flask, containerised with Docker
+- CI/CD for ML: tests on every push, images built and deployed automatically
 
-![Python](https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=white)
-![FastAPI](https://img.shields.io/badge/FastAPI-009688?logo=fastapi&logoColor=white)
-![Docker](https://img.shields.io/badge/Docker-2496ED?logo=docker&logoColor=white)
+### 🤝 Open To
 
-MovieLens 100k, cosine-similarity recommender with genre filtering, evaluated with **Precision@10**, served through a FastAPI REST API and a web UI, containerised with Docker.
-
-### [Iris Predictor](https://github.com/Hem60/IRIS-PREDICTOR): end-to-end MLOps pipeline
-
-![scikit-learn](https://img.shields.io/badge/scikit--learn-F7931E?logo=scikitlearn&logoColor=white)
-![Flask](https://img.shields.io/badge/Flask-000000?logo=flask&logoColor=white)
-![GitHub Actions](https://img.shields.io/badge/GitHub%20Actions-2088FF?logo=githubactions&logoColor=white)
-![Docker](https://img.shields.io/badge/Docker-2496ED?logo=docker&logoColor=white)
-
-RandomForest classifier (~96% test accuracy) behind a Flask + Gunicorn API and interactive UI. Pytest on every push, Docker image built in CI and pushed to GHCR, deployed on Render.
+- AI/ML engineering internships
+- RAG / LLM application projects
+- Open-source and hackathon collaboration
 
 ---
 
-## Stack
+## 🧰 Tech Stack
 
-```
-languages   Python · HTML · CSS · JavaScript
-ai/ml       RAG pipelines · LLMs · embeddings · FAISS · scikit-learn · evaluation harnesses
-backend     FastAPI · Flask · Docker · GitHub Actions (CI/CD)
-tools       Git · GitHub · VS Code · Claude
-```
+**Languages**
+
+<p>
+  <img src="https://skillicons.dev/icons?i=py,js,html,css" alt="Languages" />
+</p>
+
+**Backend & Frameworks**
+
+<p>
+  <img src="https://skillicons.dev/icons?i=fastapi,flask" alt="Backend" />
+</p>
+
+**ML & AI**
+
+<p>
+  <img src="https://skillicons.dev/icons?i=sklearn" alt="scikit-learn" />
+  <img src="https://img.shields.io/badge/FAISS-vector%20search-0467DF" alt="FAISS" />
+  <img src="https://img.shields.io/badge/HuggingFace-FFD21E?logo=huggingface&logoColor=black" alt="HuggingFace" />
+</p>
+
+**DevOps & Tooling**
+
+<p>
+  <img src="https://skillicons.dev/icons?i=docker,git,github,githubactions,vscode" alt="DevOps" />
+</p>
+
+**AI-assisted development:** Claude Code · Gemini CLI · GitHub Copilot
 
 ---
 
-> **Note:** my **raksha-ai** project (team finance AI assistant) is a **private repository**, so it isn't linked here.
+## 🧠 AI/ML Expertise
+
+| Domain | Applied in | Details |
+|---|---|---|
+| **RAG** | [RAG QA Chatbot](https://github.com/Hem60/RAG-CHAT-BOT) | PDF ingestion, CPU embeddings (`all-MiniLM-L6-v2`), FAISS retrieval, grounded answers from `gemma-2-9b-it`, refuses when the documents lack the answer |
+| **LLM evaluation** | [RAG QA Chatbot](https://github.com/Hem60/RAG-CHAT-BOT) | LLM-as-judge harness reporting errors separately: 6 of 10 questions scored, **3.5/5 scored, 2.5/5 penalised** |
+| **Recommender systems** | [Movie Recommender](https://github.com/Hem60/MOVIE_RECOMMENDER) | Item-based collaborative filtering on MovieLens 100k, evaluated with **Precision@10** |
+| **Classical ML** | [Iris Predictor](https://github.com/Hem60/IRIS-PREDICTOR) | RandomForest classifier, ~96% test accuracy |
+| **MLOps** | [Iris Predictor](https://github.com/Hem60/IRIS-PREDICTOR) | Pytest on every push, Docker image built in CI and pushed to GHCR, deployed on Render |
+
+---
+
+## 🚀 Featured Projects
+
+| | |
+|---|---|
+| **[RAG QA Chatbot](https://github.com/Hem60/RAG-CHAT-BOT)**<br>Fully local retrieval-augmented QA over technical PDFs, on a 100% free-tier stack.<br><br>![Python](https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=white) ![FAISS](https://img.shields.io/badge/FAISS-0467DF) ![FastAPI](https://img.shields.io/badge/FastAPI-009688?logo=fastapi&logoColor=white) | **[Movie Recommender](https://github.com/Hem60/MOVIE_RECOMMENDER)**<br>Item-based collaborative filtering with genre filtering, served via a FastAPI REST API and web UI.<br><br>![Python](https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=white) ![FastAPI](https://img.shields.io/badge/FastAPI-009688?logo=fastapi&logoColor=white) ![Docker](https://img.shields.io/badge/Docker-2496ED?logo=docker&logoColor=white) |
+| **[Iris Predictor](https://github.com/Hem60/IRIS-PREDICTOR)**<br>End-to-end MLOps pipeline: Flask + Gunicorn API, CI tests, Docker image on GHCR, live on Render.<br><br>![scikit-learn](https://img.shields.io/badge/scikit--learn-F7931E?logo=scikitlearn&logoColor=white) ![Flask](https://img.shields.io/badge/Flask-000000?logo=flask&logoColor=white) ![GitHub Actions](https://img.shields.io/badge/Actions-2088FF?logo=githubactions&logoColor=white) | **raksha-ai** *(private, team project)*<br>Financial safety AI assistant. Contributor: login/signup, scan input, result report, history and about screens (5 commits). |
+
+---
+
+## 📈 Contribution Activity
+
+<p align="center">
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=Hem60&theme=github-compact&hide_border=true&bg_color=0d1117&color=58a6ff&line=58a6ff&point=ffffff" alt="Contribution activity graph" width="100%" />
+</p>
+
+---
+
+<p align="center"><b>Build intelligent systems. Engineer for reliability. Evaluate what you ship.</b></p>
