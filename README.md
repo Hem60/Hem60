@@ -1,10 +1,10 @@
-<p align="center"><img src="assets/terminal-card.svg" alt="Hem Patel terminal profile" width="900" /></p>
+<p align="center"><img src="assets/terminal-card.svg" alt="Hem Patel terminal profile" width="900" height="470" /></p>
 
 <div align="center">
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://streak-stats.demolab.com/?user=Hem60&hide_border=true&background=0A101F&stroke=22D3EE&ring=A78BFA&fire=22D3EE&currStreakLabel=22D3EE&sideLabels=94A3B8&currStreakNum=F8FAFC&sideNums=F8FAFC&dates=64748B" />
   <source media="(prefers-color-scheme: light)" srcset="https://streak-stats.demolab.com/?user=Hem60&hide_border=true&background=FFFFFF&stroke=7C3AED&ring=7C3AED&fire=0891B2&currStreakLabel=0F172A&sideLabels=475569&currStreakNum=0F172A&sideNums=0F172A&dates=64748B" />
-  <img src="https://streak-stats.demolab.com/?user=Hem60&hide_border=true&background=0A101F&stroke=22D3EE&ring=A78BFA&fire=22D3EE&currStreakLabel=22D3EE&sideLabels=94A3B8&currStreakNum=F8FAFC&sideNums=F8FAFC&dates=64748B" alt="GitHub streak" />
+  <img src="https://streak-stats.demolab.com/?user=Hem60&hide_border=true&background=0A101F&stroke=22D3EE&ring=A78BFA&fire=22D3EE&currStreakLabel=22D3EE&sideLabels=94A3B8&currStreakNum=F8FAFC&sideNums=F8FAFC&dates=64748B" alt="GitHub streak" width="495" height="195" />
 </picture>
 </div>
 
@@ -25,7 +25,7 @@
   <img src="https://ghchart.rshah.org/22d3ee/Hem60" alt="Contribution heatmap" width="800" />
 </p>
 
-<p align="center"><img src="assets/divider.svg" alt="" width="900" /></p>
+<p align="center"><img src="assets/divider.svg" alt="" width="900" height="5" /></p>
 
 <p align="center">
   <a href="https://www.linkedin.com/in/hem-patel-02b215377"><img src="https://img.shields.io/badge/LINKEDIN-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
