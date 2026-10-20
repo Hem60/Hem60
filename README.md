@@ -87,7 +87,7 @@ I build RAG systems, evaluation harnesses and ML services, and I publish the num
 ## 📈 Contribution Activity
 
 <p align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=Hem60&theme=github-compact&hide_border=true&bg_color=0d1117&color=58a6ff&line=58a6ff&point=ffffff" alt="Contribution activity graph" width="100%" />
+  <img src="https://streak-stats.demolab.com/?user=Hem60&theme=github-dark&hide_border=true" alt="GitHub contribution streak" />
 </p>
 
 ---
